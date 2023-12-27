@@ -1,13 +1,13 @@
-import { Link } from "react-router-dom";
-import "./App.css";
+import Router from "./router";
 
 function App() {
   return (
     <>
       <div className="App">
-        <Link to="/">Home</Link>
-        <Link to="/about">About</Link>
+        <div>
         <h1> App Router</h1>
+        <Router/>
+        </div>        
       </div>
     </>
   );
